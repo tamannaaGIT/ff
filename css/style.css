@@ -1,0 +1,17 @@
+
+.form_btn {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    height : 40px;
+    width:220px
+
+}
+#signup{
+    background-color: aquamarine;
+}
+
+#login{
+   background-color: grey;
+}
+    

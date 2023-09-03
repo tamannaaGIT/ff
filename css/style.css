@@ -1,17 +1,53 @@
+.main_cls{
+    background-color: #28323B;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 500px;
+    padding:40px;
+}
 
-.form_btn {
+.form_btn{
     text-align: center;
-    font-size: 24px;
-    color: white;
-    height : 40px;
-    width:220px
-
-}
-#signup{
-    background-color: aquamarine;
+    padding-inline:20px;
+    font-size: 20px;
+    height: 45px;
+    width:232px;
 }
 
-#login{
-   background-color: grey;
-}
+#sign_up{
+    background-color: #56A78A;
+    color: #cbd0d3;
     
+}
+#log_in{
+    background-color: #475258;
+    color:#cbd0d3;
+}
+.cmn_cls{
+    height: 70px;
+    width:230px;
+    display:inline-block;
+}
+#input{
+    background-color: #28323B;
+    width: 95%;
+    height: 30PX;
+    border: 1px solid #6C767F;
+}
+::placeholder{
+    padding-left: 5px;
+    color: #6C767F;
+    font-size: 16px;
+
+}
+#button{
+
+    height: 55px;
+    width:468px;
+    background-color: #52AD8A;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f5fcff;
+}
+

@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UFT- 8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <title>HTML FORM WITH CSS</title> 
-        <link rel="stylesheet" href="./css/style.css"/>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+        #h2{
+            text-align: center; 
+            font-size: 30px;
+            color:#F5FCFF;
+        }
+
+    </style><!--internl CSS-->
+    <title>HTML form with CSS</title>
+</head>
 <body>
-    <div class="parent_div">
-        <button class="form_btn" id="signup" type ="submit">Sign Up</button>
-        <button class="form_btn" id="login" type="submit">Log In</button>
-        <from>
-            
-            <div class="h2"><h2>Sign Up for Free</h2></div>
-            <div class="cmn class">
-                <input class="input" type="text" placeholder="First Name" required/>
-            <div class="cmn class last">
-                <input class="input" type="text" placeholder="Last Name" required/></div>
-            <div id="email">
-                <input type="email " placeholder="Email Address"/></div></br>
-            <div id="pass">
-                <input type="password" placeholder="Set A Password"/></div></br>
-            <div id="btn">
-                <button type="submit">Get started</button></div>
-        </from>
-    </div>
+    <div class="main_cls">
+        <button class="form_btn" id="sign_up" type="submit">Sign Up </button>
+        <button class="form_btn" id="log_in" type="submit">Log In</button>
+        <form >
+            <div id="h2"><h2>Sign Up for Free</h2></div>
+            <div  class="cmn_cls">
+                <input id="input" type="text" placeholder="First Name*"  required>
+            </div>
+            <div class="cmn_cls " >
+                <input id="input" type="text" placeholder="Last Name*" required>
+            </div>
+            <div class="cmn_cls">
+                <input id="input" type="email" style="width: 450px;" placeholder="Email Address*" required/><!--inline CSS-->
+            </div></br>
+            <div class="cmn_cls">
+                <input id="input" type="password" style="width: 450px;" placeholder="Set A Password*"required/><!--inline CSS-->
+            </div>
+            <button type="submit" id="button">GET STARTED</button> 
+        </form> 
+    </div> 
 </body>
 </html>
